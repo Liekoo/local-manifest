@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <!-- Device Tree -->
+  <project path="device/xiaomi/sapphire" name="openscine/device_xiaomi_sapphire" remote="github" revision="14.0" />
+  <!-- PreBuilt Kernel -->
+  <project path="device/xiaomi/sapphire-kernel" name="BaranAspect-Development/device_xiaomi_sapphire-kernel" remote="github" revision="lineage-21" />
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/sapphire" name="openscine/vendor_xiaomi_sapphire" remote="github" revision="14.0" />
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="openscine/android_hardware_xiaomi" remote="github" revision="lineage-21.0" />
+  <!-- SEPolicy -->
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="openscine/device_qcom_sepolicy_vndr" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <!-- SEPolicy -->
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="BaranAspect-Development/device_xiaomi_sepolicy" remote="github" revision="lineage-21" />
+
+ <!-- HALs -->
+  <project path="hardware/qcom-caf/sm6225/audio/agm" name="openscine/vendor_qcom_opensource_agm" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/pal" name="openscine/vendor_qcom_opensource_arpal-lx" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="openscine/hardware_qcom_audio" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="openscine/vendor_qcom_opensource_data-ipa-cfg-mgr" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/dataipa" name="openscine/vendor_qcom_opensource_dataipa" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/display" name="openscine/hardware_qcom_display" remote="github" revision="lineage-21.0-caf-sm6225" />
+  <project path="hardware/qcom-caf/sm6225/media" name="openscine/hardware_qcom_media" remote="github" revision="lineage-21.0-caf-sm6225" />
+
+  <!-- Hardware qcom-caf common link files -->
+  <linkfile src="os_pickup_audio-ar.mk" dest="hardware/qcom-caf/sm6225/audio/Android.mk" />
+  <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm6225/Android.bp" />
+  <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm6225/Android.mk" />
+
+</manifest>
