@@ -1,4 +1,3 @@
-# local-manifest
 
 # How to use ? Create local manifest first
 ```shell
