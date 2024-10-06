@@ -2,8 +2,8 @@
 
 # How to use ?
 ...
-Create local manifest first
-...
+# Create local manifest first
+```shell
 mkdir -p .repo/local_manifests
 nano .repo/local_manifests/sm6225_manifest.xml
 ```
