@@ -12,7 +12,7 @@
   <!-- SEPolicy -->
   <project path="device/qcom/sepolicy_vndr/sm6225" name="openscine/device_qcom_sepolicy_vndr" remote="github" revision="lineage-21.0-caf-sm6225" />
   <!-- SEPolicy -->
-  <project path="device/qcom/sepolicy_vndr/sm6225" name="BaranAspect-Development/device_xiaomi_sepolicy" remote="github" revision="lineage-21" />
+  <project path="device/qcom/sepolicy_vndr/sm6225" name="openscine/device_xiaomi_sepolicy" remote="github" revision="lineage-21.0" />
 
  <!-- HALs -->
   <project path="hardware/qcom-caf/sm6225/audio/agm" name="openscine/vendor_qcom_opensource_agm" remote="github" revision="lineage-21.0-caf-sm6225" />
